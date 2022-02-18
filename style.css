@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+.login-area-heading{
+    text-align: center;
+    margin: 80px 0 70px 0;
+    font-weight: bold;
+}
+.login-info-area{
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding: 50px 30px;
+    box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+}
+.login-info-area h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.login-info-area input{
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+.login-info-area button{
+    background-color: rgb(78, 230, 48);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+/* special class */
+.boom{
+    display: none;
+}
+
+.ballance-section{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 100px;
+}
+.deposit,
+.withdraw,
+.ballance{
+    width: 350px;
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 40px;
+}
+.deposit{
+    background-color: #6a5acd;
+}
+.withdraw{
+    background-color: #ffa07a;
+}
+.ballance{
+    background-color: #ffa500;
+}
+
+
+.ballance-given-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deposit-given,
+.withdraw-given{
+    width: 650px;
+    margin: 50px 30px;
+    box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 10px 65px -18px rgba(0,0,0,1);
+    padding: 50px 30px;
+}
+.deposit-given input,
+.withdraw-given input{
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.deposit-given button,
+.withdraw-given button{
+    background-color: rgb(78, 230, 48);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
